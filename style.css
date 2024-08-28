@@ -1,0 +1,131 @@
+body {
+padding:0 50px;
+font-family: Arial Black, Helvetica, sans-serif;
+
+ background-color: rgb(255, 255, 255);
+}
+.header
+{
+    background-color: rgba(255, 255, 255, 0.652);
+    position: fixed;
+    left: -0.5px;
+    border: 5px solid white;
+    top: -1px;
+    padding: 5px 50px;
+    right: -0.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    list-style-type: none;
+}
+ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+ul li:active {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration-color: rgba(0, 0, 0, 0.5);
+}
+.login {
+  height: 23px;
+  width: 44px;
+  margin-top: 10px;
+  border-radius: 0px;
+  font-size:10px;
+ 
+}
+.redbutton
+{
+    color: white;
+    background-color: rgb(212, 0, 0);
+    border:2px solid rgb(212, 0, 0);
+}
+.main
+{
+    
+    display: flex;
+   flex-direction: row;
+   /* flex-wrap: wrap; */
+   margin: 100px 70px 20px;
+}
+.left {
+    flex: 1;
+    margin-top: -30px;
+    
+}
+.left h1 {
+    font-size: 65px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.left p {
+    margin-top: -10px;
+    text-transform: uppercase;
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 20px; */
+}
+.social {
+    width: 20px ;height: 20px;
+}
+.buttons_main {
+    height: 27px;
+    width: 110px;
+    margin-right: 20px;
+}
+.right .Shoe {
+    padding-top: 20px;
+    width: 400px;
+    height: 340px;
+}
+.category {
+ background-color: aliceblue;
+ border: 1px solid black;
+ border-radius: none;
+}
+.left
+.social_text {
+    font-size: 11px;
+    margin-top: 20px;
+    /* color: #707070; */
+}
+.left .social {
+  position: relative;
+  top:-20px;
+  width: 22px;
+  height: 22px;
+  /* display:inline-block */
+}
+.left .f {
+    width: 19px;
+  height: 19px;
+  padding-bottom: 3px;
+}
+.buttons_main,.login:hover {
+    cursor: pointer;
+}
+.redbutton:hover {
+background-color: white;
+color: rgb(212, 0, 0);}
+.category:hover{
+    background-color: black;
+    color: white;
+}
+.right .Shoe 
+{
+    filter: drop-shadow(14px 14px 5px rgba(0, 0, 0, 0.4));
+  rotate: 8deg;
+}
